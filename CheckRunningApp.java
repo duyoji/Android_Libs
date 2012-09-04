@@ -9,12 +9,12 @@ import android.net.Uri;
 import android.os.Build;
 import android.util.Log;
 
-public class CheckRunning {
+public class CheckRunningApp {
 	//元のEye-Fiのパッケージ名
 	private final String TARGET_PACKAGE = "target.package.name";
 	private Context context = null;
 		
-	public CheckRunning(Context _context){
+	public CheckRunningApp(Context _context){
 		this.context = _context;
 	}
 	
